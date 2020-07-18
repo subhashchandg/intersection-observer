@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+}
+#root {
+  display: flex;
+  overflow: hidden;
+  margin: 0;
+  .small-image {
+    width: 100vw;
+    height: 99.5vh;
+    transition: width 1s linear 10s;
+  }
+  .inactive {
+    width: 0;
+  }
+}

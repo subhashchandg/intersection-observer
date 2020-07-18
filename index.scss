@@ -1,0 +1,14 @@
+#root {
+  width: 60%;
+  margin: auto;
+  p {
+    border: 1px solid #eeeeee;
+    padding: 10px;
+    border-radius: 15px;
+    width: 100%;
+    transition: margin 2s ease-in-out 1s;
+  }
+  .inactive {
+    margin-left: -100%;
+  }
+}

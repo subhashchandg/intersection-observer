@@ -1,0 +1,18 @@
+#root {
+  width: 60%;
+  margin: auto;
+}
+
+#root p {
+  border: 1px solid #eeeeee;
+  padding: 10px;
+  border-radius: 15px;
+  width: 100%;
+  -webkit-transition: margin 2s ease-in-out 1s;
+  transition: margin 2s ease-in-out 1s;
+}
+
+#root .inactive {
+  margin-left: -100%;
+}
+/*# sourceMappingURL=index.css.map */

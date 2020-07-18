@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+}
+
+#root {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  margin: 0;
+}
+
+#root .small-image {
+  width: 100vw;
+  height: 99.5vh;
+  -webkit-transition: width 1s linear 10s;
+  transition: width 1s linear 10s;
+}
+
+#root .inactive {
+  width: 0;
+}
+/*# sourceMappingURL=carousel.css.map */
